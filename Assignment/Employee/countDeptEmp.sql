@@ -1,0 +1,1 @@
+SELECT Dname as DEPARTMENT_NAME, COUNT(*) FROM `employee` as emp INNER JOIN `department` as dept WHERE emp.DeptNo = dept.DeptNo GROUP BY DEPARTMENT_NAME
